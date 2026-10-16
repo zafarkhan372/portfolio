@@ -1,0 +1,232 @@
+/*================================================================================================================
+
+	RESPONSIVE
+
+================================================================================================================*/
+@media only screen and (max-width : 1251px) {
+	#works ul{
+		margin-left: -15px !important;
+	}
+}
+
+@media only screen and (max-width : 880px) {
+	
+	.mynamebreak{
+		display: none;
+	}
+	#control {
+		width: 100%;
+		height: 150px;
+		top: 0;
+		right: 0;
+		bottom: auto;
+		z-index: 10001;
+	}
+	
+	#control #side {
+		width: 88%;
+		padding: 20px 6% 0 6%;
+		float: none;
+		overflow: hidden;
+	}
+	
+	#control #side #logo {
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	
+	#control #side #logo h1 {
+		font-size: 24px;
+		margin: 0 -5px 8px 0;
+		text-align: center;
+	}
+	
+	#control #side #logo .sub {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+	
+	#control #side #logo a {
+		width: 250px;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	#control #side #nav {
+		float: left;
+		position: relative;
+		margin: 0;
+	}
+	
+	#control #side #nav .mobile {
+		clear: left;
+		float: left;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		left: 50%;
+		text-align: center;
+		display: block;
+	}
+	#control #side #nav .regular { display: none; }
+	
+	#control #side #nav ul li {
+		width: auto;
+		display: block;
+		clear: none;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		right: 50%;
+		height: 26px;
+		margin: 0 10px;
+	}
+	
+	#control #side #nav ul li span {
+		margin: 0;
+	}
+	
+	#secondary_nav {
+		width: 100%;
+		height: 12px;
+		padding-top: 16px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: url(../images/trans.png) repeat;
+	}
+	
+	#secondary_nav > ul {
+		clear: left;
+		float: left;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		left: 50%;
+		text-align: center;
+		display: block;
+	}
+	
+	#secondary_nav > ul > li {
+		width: auto;
+		display: block;
+		clear: none;
+		float: left;
+		list-style: none;
+		position: relative;
+		right: 50%;
+	}
+	
+	#secondary_nav ul li ul {
+		left: 0;
+		margin-right: 0;
+	}
+	
+	#secondary_nav ul li ul li a {
+		text-align: left; 
+	}
+	
+	#main {
+		width: 100%;
+		opacity: 1 !important;
+	}
+	
+	#main #content {
+		max-width: none;
+		padding: 0 20px;
+	}
+	
+	.panel {
+		 padding-top: 50px;
+	}
+	
+	.skill .bar {
+		height: 32px;
+		line-height: 32px;
+	}
+	
+	.skill .bar div {
+		height: 32px;
+	}
+	
+	#widgets {
+		display: none;
+	}
+	#profile{
+	    margin-top: 118px;
+	}
+	#works ul{
+		margin-left: -5px !important;
+		
+	}
+	#works .ui-accordion-content{
+		padding: 20px 15px 0 0 !important;
+	}
+	
+}
+
+@media only screen and (max-width : 540px) {
+
+	.one-half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths, .one-sixth { width: 96%; }
+	
+	.skill .bar {
+		height: 24px;
+		line-height: 24px;
+	}
+	
+	.skill .bar div {
+		height: 24px;
+	}
+	#works ul{
+		margin-left: -2px !important;	
+	}
+	#works ul li .info h4 a{
+		font-size: 14px !important;
+		margin-top: -10px;
+	}
+	.skill span{
+		font-size: 12px;
+	}
+	.post_left,
+	.post_right {
+		width: 100% !important;
+	}
+	.myclass{
+		display: flex !important;
+	}
+
+	
+}
+@media only screen and (max-width : 456px) {
+	#works ul li .info h4 a{
+		font-size: 12px !important;
+	}
+	#works ul{
+		margin-left: 0px !important;	
+	}
+}
+@media only screen and (max-width : 420px) {
+	#works ul li .info h4 a{
+		font-size: 11px !important;
+		margin-top: -15px;;
+	}
+	#works ul li .info {
+		height: 25px;
+	}
+}
+@media only screen and (max-width : 420px) {
+	#works ul li .info h4 a{
+		font-size: 10px !important;
+	}
+}
+@media only screen and (max-width : 320px) {
+
+	#works ul li {
+		width: 100%;
+	}
+
+}
